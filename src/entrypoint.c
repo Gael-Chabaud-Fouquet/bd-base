@@ -86,6 +86,13 @@ void raylib_start(void){
     see_state_fruits(db,"CA");
     see_state_fruits(db,"NC");
     // add_random_fruit(db); //Uncomment to add a random fruit...
+
+while (1)
+{
+    getchar();
+}
+
+
     sqlite3_close(db);
     return;
 }
